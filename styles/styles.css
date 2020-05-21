@@ -1,0 +1,39 @@
+/*
+* Author: Nick Eekhof
+* Description: This stylesheet is responsible for the quiz styling
+*/
+
+/*Styling of the body*/
+body{
+  font-family: Arial, sans-serif;
+  background-image: url(../img/back.jpg);
+}
+
+/*Styling and alignment of the title and content containers*/
+.title, .content{
+  margin-bottom: 5em;
+  background-color: gray;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5em;
+  text-align: center;
+  margin-left: 20em;
+  margin-right: 20em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*Styling of the login form*/
+#login{
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/*Spacing of the form elements*/
+.user{
+  padding-bottom: 2em;
+}
+
+#answer{
+  padding-top: 1em;
+}
